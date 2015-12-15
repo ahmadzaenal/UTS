@@ -50,13 +50,13 @@ public class ClientUTS {
              a=response.split(" ")[8];
            
              if(a.equalsIgnoreCase("USERNAME:NRP\\n")){
-                 /*
+                 System.out.println("Input NRP saja:\n");
                  nama=rd.nextLine();
                  os.write("Username:"+nama+"\n");
                  os.flush();
-                  */
-                 os.write("Username:5113100043\n");
-                 os.flush();
+                  
+                 //os.write("Username:5113100043\n");
+                 //os.flush();
                  
                  while ((response = is.readLine())!=null){
                     
